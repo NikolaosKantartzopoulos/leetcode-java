@@ -11,6 +11,5 @@ class ContainsDuplicateSpec extends Specification{
             [1, 2, 3, 1]                   as int[]| true
             [1, 2, 3, 4]                   as int[]| false
             [1, 1, 1, 3, 3, 4, 3, 2, 4, 2] as int[]| true
-
     }
-    }
+}
