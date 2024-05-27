@@ -1,4 +1,6 @@
-import problems.BestTimeToBuyAndSellStock
+package problems
+
+
 import spock.lang.Specification
 
 class BestTimeToBuyAndSellStockSpec extends Specification{

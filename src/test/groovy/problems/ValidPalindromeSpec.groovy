@@ -1,4 +1,6 @@
-import problems.ValidPalindrome
+package problems
+
+
 import spock.lang.Specification
 
 class ValidPalindromeSpec extends  Specification{

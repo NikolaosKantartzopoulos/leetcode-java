@@ -1,4 +1,6 @@
-import problems.ThreeSum
+package problems
+
+
 import spock.lang.Specification
 
 class ThreeSumSpec extends Specification{

@@ -1,4 +1,6 @@
-import problems.ProductOfArrayExceptSelf
+package problems
+
+
 import spock.lang.Specification
 
 class ProductOfArrayExceptSelfSpec extends Specification {

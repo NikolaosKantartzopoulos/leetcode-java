@@ -1,4 +1,6 @@
-import problems.LongestRepeatingCharacterReplacement
+package problems
+
+
 import spock.lang.Specification
 
 class LongestRepeatingCharacterReplacementSpec extends Specification {

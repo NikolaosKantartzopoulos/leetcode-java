@@ -1,4 +1,6 @@
-import problems.TopKFrequentElements
+package problems
+
+
 import spock.lang.Specification
 
 class TopKFrequentElementsSpec extends Specification{

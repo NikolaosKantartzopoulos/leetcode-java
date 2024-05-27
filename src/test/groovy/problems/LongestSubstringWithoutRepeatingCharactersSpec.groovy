@@ -1,4 +1,6 @@
-import problems.LongestSubstringWithoutRepeatingCharacters
+package problems
+
+
 import spock.lang.Specification
 
 class LongestSubstringWithoutRepeatingCharactersSpec extends Specification{

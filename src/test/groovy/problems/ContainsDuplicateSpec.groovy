@@ -1,4 +1,6 @@
-import problems.ContainsDuplicate
+package problems
+
+
 import spock.lang.Specification
 
 class ContainsDuplicateSpec extends Specification{

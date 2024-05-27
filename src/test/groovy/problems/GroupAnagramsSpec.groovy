@@ -1,4 +1,6 @@
-import problems.GroupAnagrams
+package problems
+
+
 import spock.lang.Specification
 
 class GroupAnagramsSpec extends Specification {

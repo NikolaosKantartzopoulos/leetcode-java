@@ -1,4 +1,6 @@
-import problems.ContainerWithMostWater
+package problems
+
+
 import spock.lang.Specification
 
 class ContainerWithMostWaterSpec extends Specification{

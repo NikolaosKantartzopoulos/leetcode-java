@@ -1,4 +1,6 @@
-import problems.TwoSumII
+package problems
+
+
 import spock.lang.Specification
 
 class TwoSumIISpec extends Specification{

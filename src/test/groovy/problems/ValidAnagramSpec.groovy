@@ -1,5 +1,6 @@
+package problems
+
 import spock.lang.Specification
-import problems.ValidAnagram
 
 class ValidAnagramSpec extends Specification{
     def "Valid Anagram"(){
