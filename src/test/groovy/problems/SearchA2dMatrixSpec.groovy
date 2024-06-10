@@ -1,13 +1,15 @@
-package problems;
-import spock.lang.Specification;
+package problems
+
+import spock.lang.Specification
 
 class SearchA2dMatrixSpec extends Specification {
-    def "SearchA2dMatrixSpec"(){
+    def "test search matrix functionality"() {
         expect:
-        ProductOfArrayExceptSelf.productExceptSelf(nums) == result
+            SearchA2dMatrix.searchMatrix(matrix, target) == result
+
         where:
-        nums | result
-            [1,2,3,4] as int[] | [24,12,8,6]
-            [-1,1,0,-3,3] as int[] | [0,0,9,0,0]
+            matrix                                      | target | result
+            [[1, 3, 5, 7], [10, 11, 16, 20], [23, 30, 34, 60]] as int[][] | 3    | true
+            [[1, 3, 5, 7], [10, 11, 16, 20], [23, 30, 34, 60]] as int[][] | 13   | false
     }
 }
