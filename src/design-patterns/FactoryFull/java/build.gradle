@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+application {
+    mainClass = 'Main' // or 'app.Main' if in a package
+}
+
+dependencies {
+    // no external deps needed for your burger app
+}
